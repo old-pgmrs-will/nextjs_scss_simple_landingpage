@@ -25,7 +25,7 @@ TODO:
 git clone https://github.com/old-pgmrs-will/nextjs_scss_simple_landingpage
 cd nextjs_scss_simple_landingpage
 yarn install
-yarn dev -o
+yarn dev
 ```
 
 または
