@@ -4,9 +4,7 @@
 
 Next.js (React.js) + TypeScript + SCSSを使い、webエンジニア・ポートフォリオ風のシンプルなランディングページを実装するためのスターター・テンプレート。
 <br>
-<!--
-<img width="1280" alt="nuxt3-scss-ts-lp-starter" src="https://user-images.githubusercontent.com/102408514/173215151-535114d7-d60a-41fa-b497-90b8a134706d.png">
--->
+<img width="1280" alt="nextjs-scss-ts-lp-starter" src="https://user-images.githubusercontent.com/102408514/190896324-96d73f5a-83e4-4d1c-ac32-86d4b22ac040.jpg"/>
 
 ## 特徴
 
