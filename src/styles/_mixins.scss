@@ -1,0 +1,32 @@
+// mixins
+@use "variables" as v;
+
+// @include m.m-0;
+@mixin m-0{
+  margin: 0;
+}
+
+// @include m.p-0;
+@mixin p-0{
+  padding: 0;
+}
+
+// @include m.mx-auto;
+@mixin mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// @include m.flex(center, center);
+@mixin flex($justify-content: unset, $align-items: unset, $flex-direction: row){
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-direction: $flex-direction;
+}
+
+@mixin screen_for($device-screen-size) {
+  @media #{map-get(v.$breakpoints, $device-screen-size)} {
+    @content;
+  }
+}

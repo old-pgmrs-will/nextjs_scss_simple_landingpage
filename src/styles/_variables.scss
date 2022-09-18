@@ -1,0 +1,74 @@
+/**
+ * CSS変数定義
+ */
+
+// root
+:root {
+  // カラーパレット
+  --color-mono-0: #FFFFFF;
+  --color-mono-1: #E3E3E3;
+  --color-mono-2: #C6C6C6;
+  --color-mono-3: #A9A9A9;
+  --color-mono-4: #8C8C8C;
+  --color-mono-5: #6F6F6F;
+  --color-mono-6: #525252;
+  --color-mono-7: #3D3D3D;
+  --color-mono-8: #272727;
+  --color-mono-9: #181818;
+
+  // font family
+  --font-family-default: "Noto Sans JP", sans-serif;
+}
+
+// colors
+$color-theme-0: var(--color-mono-0);
+$color-theme-1: var(--color-mono-1);
+$color-theme-2: var(--color-mono-2);
+$color-theme-3: var(--color-mono-3);
+$color-theme-4: var(--color-mono-4);
+$color-theme-5: var(--color-mono-5);
+$color-theme-6: var(--color-mono-6);
+$color-theme-7: var(--color-mono-7);
+$color-theme-8: var(--color-mono-8);
+$color-theme-9: var(--color-mono-9);
+
+$color-background-primary:    var(--color-mono-0);
+$color-background-secondary:  var(--color-mono-2);
+$color-background-tertiary:   var(--color-mono-4);
+$color-background-quaternary: var(--color-mono-6);
+
+// font-family
+$font-family-theme-default: var(--font-family-default);
+
+// font size
+$text-2xs  : 0.625rem;  // 10px
+$text-xs   : 0.75rem;   // 12px
+$text-sm   : 0.875rem;  // 14px
+$text-base : 1rem;      // 16px
+$text-lg   : 1.125rem;  // 18px
+$text-xl   : 1.25rem;   // 20px
+$text-2xl  : 1.5rem;    // 24px
+$text-3xl  : 1.875rem;  // 30px
+$text-4xl  : 2.25rem;   // 36px
+$text-5xl  : 3rem;      // 48px
+
+// media query
+$breakpoints: (
+  "small"  : "screen and (min-width: 40rem)",  // 640px
+  "medium" : "screen and (min-width: 48rem)",  // 768px
+  "large"  : "screen and (min-width: 64rem)",  // 1024px
+) !default;
+
+// screen size
+$h-screen: 100vh;
+$w-screen: 100vw;
+
+// element size
+$header-height: 5rem;
+
+// gaps
+$item-gap-xx   : 1rem;
+$item-gap-sm   : 1.5rem;
+$item-gap-base : 2rem;
+$item-gap-lg   : 2.5rem;
+$item-gap-xl   : 3rem;

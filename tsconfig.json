@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // src フォルダ配下で各ファイルを管理する
+    "baseUrl": "src",
+    "paths": {
+      // import利用時の "@" エイリアス使用設定
+      "@/styles/*": ["styles/*"]
+    },
+    // 以下は自動生成されたもの
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  }, 
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "styled-jsx": {
+          // JSX内で sass または scss を使う
+          "plugins": ["@styled-jsx/plugin-sass"]
+        }
+      }
+    ]
+  ]
+}

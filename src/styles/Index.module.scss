@@ -1,0 +1,9 @@
+/** index.tsx 用のスタイル定義例
+  .tsx 内では
+    import styles from '../styles/Index.module.scss'
+    <p className={styles.exampleClassValue}>...</p>
+  といった使い方をする。
+*/
+.exampleClassValue {
+  color: #e4c7f5;
+}
