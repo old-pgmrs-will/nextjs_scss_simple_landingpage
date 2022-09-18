@@ -22,8 +22,8 @@ TODO:
 ## セットアップ
 
 ```
-git clone https://github.com/old-pgmrs-will/next_scss_simple_landingpage
-cd next_scss_simple_landingpage
+git clone https://github.com/old-pgmrs-will/nextjs_scss_simple_landingpage
+cd nextjs_scss_simple_landingpage
 yarn install
 yarn dev -o
 ```
