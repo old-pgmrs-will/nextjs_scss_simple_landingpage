@@ -17,7 +17,7 @@ Next.js (React.js) + TypeScript + SCSSを使い、webエンジニア・ポート
 - ヘッダ/フッタ/メニュー/ボタン類もコンポーネント化
 
 ## デモ
-TODO:
+https://nextjs-scss-ts-lp-starter.netlify.app/
 
 ## セットアップ
 
