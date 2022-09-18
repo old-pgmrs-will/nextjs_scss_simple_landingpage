@@ -19,7 +19,7 @@ const SectionTop: NextPage = () => {
               <UiLinkButton className="hero_conversion_linkbutton large-button md-center mt-12" linkUrl="#" caption="About me" has_icon="true" icon_class="fa-solid fa-angle-right"></UiLinkButton>
             </div>
             <div className="hero_main_image">
-              <Image className="hero_main_image_src" src="/images/placeimg_960_640_grayscale_tech-5.jpg" alt="top image" layout="fill" objectFit="cover" />
+              <Image className="hero_main_image_src" src="/images/placeimg_960_640_grayscale_tech-5.jpg" alt="top image" layout="fill" objectFit="cover" priority={true} />
             </div>
           </div>
         </div>
